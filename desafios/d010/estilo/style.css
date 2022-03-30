@@ -8,11 +8,11 @@
 
 :root{
     --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
+    --cor1: #DAFDBA;
+    --cor2: #9AEBA3;
+    --cor3: #45C4B0;
+    --cor4: #13678A;
+    --cor5: #012030;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -37,7 +37,7 @@ header {
 }
 
 header > h1{
-    color:white;
+    color: var(--cor1);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     margin-bottom: 20px;
@@ -47,7 +47,7 @@ header > h1{
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    color: white;
+    color: var(--cor0);
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
@@ -88,7 +88,7 @@ main {
 }
 
 main h1 {
-    color: var(--cor5);
+    color: var(--cor4);
     font-family: var(--fonte-android);
 }
 
